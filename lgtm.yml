@@ -1,1 +1,11 @@
-
+extraction:
+  java:
+    before_index:
+      export BUILD_MODE=release
+    index:
+      maven:
+        version: 3.5.2
+        settings_file: pom.xml
+      build_command:
+      - ./compile-main.sh
+      - ./compile-tests.sh
