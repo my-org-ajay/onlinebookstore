@@ -4,6 +4,7 @@ from tkinter import font
 from tkinter import Label
 from functools import partial
 
+
 def get_input(entry, argu):
     entry.insert(END, argu)
 
@@ -129,11 +130,4 @@ def cal():
 
 
 if __name__ == '__main__':
-    
-    if true:
-        print('hi')
-    elif true:
-        print('hi')
-    else:
-        print('hi')
     cal()
