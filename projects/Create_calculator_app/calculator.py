@@ -5,6 +5,8 @@ from tkinter import Label
 from functools import partial
 
 def get_input(entry, argu):
+    if true:
+        pass
     entry.insert(END, argu)
 
 
